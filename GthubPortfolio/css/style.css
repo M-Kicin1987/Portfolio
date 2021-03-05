@@ -222,6 +222,32 @@ header {
     top: 1em;
     z-index: 1000;
 }
+.languageSelection {
+    padding: 0.1em;
+    margin: 0em 1em;
+    position: absolute;
+    right: 3em;
+    top: -0.6em;
+    z-index: 2000;
+}
+.languageSelection:focus{
+    outline: none;
+    outline-offset: 0px;
+}
+
+.select {
+    padding: .5em;
+    color: var(--clr-dark);
+    text-decoration: none;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: var(--fw-bold);
+}
+.select:focus{
+    outline: none;
+    outline-offset: 0px;
+}
 
 .nav-open .nav {
     transform: translateX(0%);
