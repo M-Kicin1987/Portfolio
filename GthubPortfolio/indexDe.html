@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--    Normalize  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!--    Font Awsom  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!--     CSS style  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--   Google Fonts   -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poly&display=swap" rel="stylesheet"> <!--  font-family: 'Poly', serif;  -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet"> <!-- font-family: 'Merriweather', serif; -->
+
+    <title>Portfolio</title>
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+
+        <div class=nav__row>
+            <ul class="nav__items">
+                <li class="">
+                    <a class="link__item btn" href="#services">Meine Dienstleistungen</a>
+                </li>
+                <li class="">
+                    <a class="link__item btn" href="#about">Über mich</a>
+                </li>
+                <li class="">
+                    <a class="link__item btn" href="#work">Meine Arbeit</a>
+                </li>
+            </ul>
+        </div>
+
+       <buton class="languageSelection"><a class=select href="index.html"><img src="images/EN.png" alt="index.html">EN</a></buton>
+       
+        <button class="nav-toggle" area-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Meine Dienstleistungen</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">Über mich</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Meine Arbeit</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--        Introduction        -->
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hallo, ich bin <strong>Michal Kicin</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Front-end Entwickler</p>
+        <img src="images/BezKlobuku3.jpg" alt="a picture of Michal Kicin hiking" class="intro__img">
+    </section>
+
+    <!--   xx   Introduction  xx    -->
+
+    <!--          My Services        -->
+
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">Was kann ich machen</h2>
+        <div class="services">
+            <div class="service">
+                <h3>HTML</h3>
+                <p>Ich habe gelernt, die grundlegende Webseitenstrukturen mithilfe von Tags und Elementen zu erstellen. Ich habe auch Kenntnisse über Tags wie Text, Liste, Bilder, Links, Tabellen, Formulare, Video-Audio und Flash sowie verschiedene Elemente erworben. Ich konzentriere mich darauf, zu verstehen, wie man einen HTML-Code schreibt, um CSS oder JavaScrip einfach im Projekt zu implementieren.</p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>CSS</h3>
+                <p>Ich habe gelernt, das grundlegende Design und Layout der Webseite zu steuern. In meinen CSS-Regeln habe ich die Vielzahl von CSS-Eigenschaften verwendet. In der Präsentationskategorie lerne ich hinzuzufügen: Hintergrundfarben / Bilder, Textfarben, Schriftarten / -größen. In der Layoutkategorie habe ich gelernt, wie man die Positionierung von Elementen steuert und einige Techniken, um Seiten attraktiver zu gestalten
+</p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>JavaScript & JQuery</h3>
+                <p>Ich verstehe grundlegende JavaScript-Programmierkonzepte und verwandte Begriffe, um sie zu beschreiben. Ich habe auch wichtige Wörter aus dem JS-Sprachvokabular und deren Bedeutung gelernt. Zum besseren Verständnis der Anwendung von JS auf Websites lerne und übe ich kontinuierlich das Codieren. Weil ich denke, dass JS ein perfektes Werkzeug ist, um Websites interaktiver, interessanter und benutzerfreundlicher zu gestalten.</p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>In Ergänzung</h3>
+                <p>Ich verwende (spiele) gerne mit Browser-Entwicklertools und der Möglichkeit, nach Fehlern und Debugging zu suchen. Ich habe auch ein gutes Verständnis für Frameworks und habe Bootstrap 5.0 in einigen kleinen Lernprojekten verwendet. Auch habe ich viele Websites wie FontAwsome, GoogleFonts, Color-Hex, Webgradienten, Layoutit, Regexr und viele andere verwendet. Meine Hauptmotivation ist es, eines Tages Full-Stack-Entwickler zu werden, deshalb habe ich auch die Grundlagen des JA</p>
+            </div> <!-- / service -->
+        </div><!-- / services -->
+        <a href="#work" class="btn">Meine Arbeit</a>
+    </section>
+
+    <!--   xx     My Services    xx  -->
+
+    <!--          About Me          -->
+
+    <section class="about-me" id="about">
+
+        <h2 class="section__title section__title--about">Wer bin Ich</h2>
+        <p class="section__subtitle section__subtitle--about">
+            Front-End-Entwickler mit Sitz in Österreich
+        </p>
+        <div class="about-me__body">
+            <h3>Ich bin ein autodidaktischer Entwickler, der gerne in der Front-End-Entwicklung arbeitet, aber auch ein leichtes Verständnis für das Back-End hat.</h3>
+            <p>Ich sammle meine Erfahrungen basierend auf dem täglichen Online-Training <strong>Ed-X; Udemy</strong>. Da ich ein sehr neugieriger Mensch bin und neue Herausforderungen liebe versuche ich mich stets auch in meiner Freizeit mit privaten Projekten weiter zu entwickeln. Ich habe einen definierten Sinn für Ästhetik und arbeite gerne an durchdachten, ansprechenden und funktionalen Projekten mit einem einfachen, sauberen und unverwechselbaren Design.
+            </p>
+            <p>Des Weiteren habe ich ein starkes Fundament im Bereich Webdesign und Entwicklung. Ich habe bereits einige Projekte mit <strong>HTML</strong> erstellt, <strong>CSS; JS</strong> verwendet und auch Frameworks wie Angular oder Bootstrap sind für mich nicht unbekant. Folgende Online-Kurse habe ich kürzlich abgeschlossen:
+            <strong>EdX</strong> - W3Cxs Front-End-Webentwickler; <strong>Udemy</strong> - Das komplette Boot-Camp für Front-end-Webentwickler; <strong>EdX</strong> - Programmieren in Java und <strong>Udemy</strong> - QA Manual Software Testing.</p>
+            <p>Bevor ich zur Entwicklung wechselte, arbeitete ich in verschiedenen luxuriösen Hotels und später sogar als Wander- und Bergwanderführer.<br>
+            Mein erster Gedanke war es, eine eigene Blog-Seite über Sport und Natur zu erstellen, was mir dann so viel Spaß machte und mein Interesse an der Codierung geweckt hat. </p>
+            <p>Seit ich mit dem Codieren vertraut bin, spielte ich auch keine Play-Station mehr, da mir nun das codieren viel mehr Spaß macht und ich somit auch mein Job als mein neues Hobby sehe.</p>
+        </div>
+
+        <img src="images/Wildspitze3.jpg" alt="Jane leaning against a bus" class="about-me__img">
+    </section>
+
+    <!--    xx    About Me   xx     -->
+
+    <!--            My Work     xx    -->
+
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title_work">Meine Arbeit</h2>
+        <p class="section__subtitle section__subtitle--work">Eine Auswahl meiner Arbeiten</p>
+        <div class="portfolio">
+            <!--  Portfoloi item 01  -->
+            <a href="portfolio-blogger.html" class="portfolio__item">
+                <img src="images/project-1b.jpg" alt="#" class="portfolio__img">
+            </a>
+            <!--  Portfoloi item 02  -->
+            <a href="portfolio-2.html" class="portfolio__item">
+                <img src="images/project-2a.jpeg" alt="#" class="portfolio__img">
+            </a>
+            <!--  Portfoloi item 03  -->
+            <a href="portfolio-3.html" class="portfolio__item ">
+                <img src="./images/project-3a.jpg" alt="#" class="portfolio__img">
+                <h3 class="skusaj"></h3>
+            </a>
+        </div>
+    </section>
+
+    <!--      xx    My Work   xx      -->
+
+    <!--            Footer              -->
+
+    <footer class="footer">
+        <a href="mailto:m.kicin1987@gmail.com" class="footer__link">m.kicin1987@gmail.com</a>
+        <ul class="social-list ">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://en.wikipedia.org/wiki/HTML#:~:text=Hypertext%20Markup%20Language%20(HTML)%20is,scripting%20languages%20such%20as%20JavaScript." target="blank">
+                    <i class="fab fa-html5"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://en.wikipedia.org/wiki/CSS" target="blank">
+                    <i class="fab fa-css3"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://en.wikipedia.org/wiki/JavaScript#:~:text=JavaScript%20(%2F%CB%88d%CA%92%C9%91%CB%90v,%2C%20and%20first%2Dclass%20functions." target="blank">
+                    <i class="fab fa-js"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.facebook.com/mkicin" target="blank">
+                    <i class="fab fa-facebook-square"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+    <!--     xx     Footer      xx      -->
+
+
+</body>
+
+</html>
